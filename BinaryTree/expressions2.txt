@@ -1,0 +1,8 @@
+# Version 0.2, fully parenthesized.
+# This is a comment
+
+((9 + 4) * 5) + (4 - (6 + 3))
+# Note first expression should evaluate to 60
+
+((42 + ( 10 - 2 )) + ( 5 * 3 )) / 6
+# Note second expression should evaluate to 65 / 6 or 10 (integer division)
